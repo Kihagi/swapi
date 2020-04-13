@@ -51,7 +51,11 @@ WSGI_APPLICATION = 'swapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.path.join(BASE_DIR, 'db.sql'),
+        'NAME': 'd2c2t5ra4s5rba',
+		'USER': 'xsuvhtjqshcmrf',
+        'PASSWORD': '59e4e5a73597b8595836618330bbfe0a18d963e359a0e127bf2ab3bd7fb03152',
+        'HOST': 'ec2-3-223-21-106.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
